@@ -1,6 +1,37 @@
 nav{
+    
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-};
+    
+    
+}
+a{text-decoration: none;}
+a{color: black;}
+a{margin-right: 15px;}
+
+#barra-pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 8px 12px;
+    width: 300px;
+    border: 1px solid gray;
+}
+
+#barra-pesquisa img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#barra-pesquisa input {
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    flex: 1;
+}

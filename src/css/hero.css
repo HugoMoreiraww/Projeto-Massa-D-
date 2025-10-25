@@ -1,0 +1,39 @@
+
+.destaque{
+
+    background-color: #ff4141;  
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: 100px;
+    text-align: 100px;
+    padding: 5px;
+}
+.texto{
+    margin-left: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.texto h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.texto p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    max-width: auto;
+}
+.hamburgerhero-img{
+    width: 300px;
+    border-radius: 15px;
+    transform: trasform 0.4s ease, box-shadow 0.4s ease;
+}
+.hamburgerhero-img:hover{
+    transform: scale(1.1);
+}
+
+ 

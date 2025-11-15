@@ -1,0 +1,60 @@
+footer {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#titulo-principal {
+    color: white;
+
+}
+
+#links-rapidos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+#links-rapidos a {
+    color: white;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+#links-rapidos h4 {
+    color: white;
+    font-size: 18px;
+}
+
+
+#contatos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contatos img {
+    width: 25px;
+    height: 25px;
+}
+
+#contatos a {
+    color: white;
+    font-size: 19px;
+}
+
+
+#contatos h4 {
+    color: white;
+    font-size: 19px;
+}
+
+.contatos-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}

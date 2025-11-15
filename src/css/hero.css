@@ -1,35 +1,40 @@
 
-.destaque{
+.hero{
 
-    background-color: #ff4141;  
+    background-color: #EA1D2C;  
     color: white;
     display: flex;
-    align-items: center;
+    align-items:self-start;
     justify-content: space-between;
-    align-items: 100px;
-    text-align: 100px;
-    padding: 5px;
-}
-.texto{
-    margin-left: 550px;
-    display: flex;
     align-items: center;
-    flex-direction: column;
+    text-align: 100px;
+    padding: 60px 20px;
 }
-.texto h2{
-    font-size: 2rem;
-    margin-bottom: 10px;
+.hero-texto{
+  margin-left: 350px;
+}
+.hero h1{
+    margin: 0;
+    font-size: 40px;
     font-weight: 700;
+    line-height: 1;
+    text-align: center;
 }
-.texto p {
-    font-size: 1.1rem;
+.destaque{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 30px; 
     opacity: 0.9;
     margin-bottom: 20px;
     max-width: auto;
+    text-align: center;
 }
 .hamburgerhero-img{
     width: 300px;
-    border-radius: 15px;
+    border-radius: 1px;
     transform: trasform 0.4s ease, box-shadow 0.4s ease;
 }
 .hamburgerhero-img:hover{

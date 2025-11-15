@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+    *{
+
+        margin: 0;  
+        padding: 0;
+        box-sizing: border-box:border-box;
+        font-family: "inter", sans-serif;
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.left-side {
+    width: 50%;
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side {
+    width: 50%;
+    background-color: #d80000; 
+}
+
+.form {
+    width: 350px;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+}
+
+.title h1 {
+    text-align: center;
+    color: #ff4d4d;
+    margin-bottom: 25px;
+}
+
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button,
+.login-button button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover,
+.login-button button:hover {
+    background-color: #ff4d4d;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.footer-text a {
+    color: ;
+    text-decoration: none;
+}

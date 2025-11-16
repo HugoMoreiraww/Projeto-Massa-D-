@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="src/css/cardapio.css">
+
     <title>Projeto Massa D+</title>
 </head>
 
@@ -24,10 +26,12 @@
             <h1>MASSA D+</h1>
         </div>
         <div id="nav-links"><a href="index.html">Inicio</a>
-            <a href="cardápio.html">Cardápio</a>
-            <a href="promocoes.html">Promoções</a>
+            <a href="#cardapio">Cardápio</a>
             <a href="contatos.html">Contatos</a>
         </div>
+<a href="tela-de-login.html">
+    <button>Login</button>
+</a>
 
         <div id="barra-pesquisa">
             <img src="src/imagens/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24 (2).svg" alt="">
@@ -50,7 +54,87 @@
     </section>
 
     <!-- Cardápio -->
+  <div id="cardapio" class="cardapio-body">
+<div class="container swiper">
+    <div class="card-wrapper">
+        <ul class="card-list swiper-wrapper">
 
+            <li class="card-item swiper-slide">
+            <a href="#"class="card-link"> 
+                <img src="src/imagens/carbonara.webp" alt="card Image" class="card-image">
+                <p class="badge">R$ 22,00</p>
+                <h2 class="card-title">Carbonara</h2>
+                <button class="card-button material-symbols-rounded">arrow_forward</button>
+
+           </a>
+          </li>
+
+          <li class="card-item swiper-slide">
+            <a href="#"class="card-link"> 
+                <img src="src/imagens/lasanha.jpeg" alt="card Image" class="card-image">
+                <p class="badge lasanha">R$ 13,00</p>
+                <h2 class="card-title">Fatia de Lasanha</h2>
+                <button class="card-button material-symbols-rounded">arrow_forward</button>
+
+           </a>
+
+          
+          
+          </li>
+
+          <li class="card-item swiper-slide">
+            <a href="#"class="card-link"> 
+                <img src="src/imagens/pizza.webp" alt="card Image" class="card-image">
+                <p class="badge pizza">R$30,00</p>
+                <h2 class="card-title">Pizza</h2>
+                <button class="card-button material-symbols-rounded">arrow_forward</button>
+
+           </a>
+
+          
+          
+          </li>
+
+          <li class="card-item swiper-slide">
+            <a href="#"class="card-link"> 
+                <img src="src/imagens/spaghetti.jpg" alt="card Image" class="card-image">
+                <p class="badge spaghetti">R$ 22,00 </p>
+                <h2 class="card-title">Spaghetti</h2>
+                <button class="card-button material-symbols-rounded">arrow_forward</button>
+
+           </a>
+
+          
+          
+          </li>
+
+          <li class="card-item swiper-slide">
+            <a href="#"class="card-link"> 
+                <img src="src/imagens/calzone.jpeg" alt="card Image" class="card-image">
+                <p class="badge calzone">R$ 10,00</p>
+                <h2 class="card-title">Calzone</h2>
+                <button class="card-button material-symbols-rounded">arrow_forward</button>
+
+           </a>
+
+          
+          
+          </li>
+          
+
+        </ul>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
+        
+
+     </div>
+     </div>
+     </div>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+     <script src="src/js/script.js">  </script>
 
     <!--footer-->
 

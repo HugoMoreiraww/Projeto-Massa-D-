@@ -36,13 +36,13 @@ a{margin-right: 15px;}
     flex: 1;
 }
 
-button{
+.button-login{
     background-color: #EA1D2C;
     border: none;
     padding: 10px 20px;
     color: white;
 }
-button:hover{
+.button-login:hover{
     background-color: #b9141f;
 
 }

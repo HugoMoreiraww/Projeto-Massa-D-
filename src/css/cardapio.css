@@ -63,7 +63,7 @@
         font-size: 0.95rem;
         font-weight: 500;
         margin: 16px 0 18px;
-        background: #28040475;
+        background: #ff0000;
         width: fit-content;
         border-radius: 50px;
 
@@ -71,20 +71,27 @@
     }
 
       .card-list .card-link .badge.pizza {
-         color: rgb(0, 0, 0);
-        background: #28040475; }
+         color: rgb(255, 255, 255);
+        background: #ff0505d9; }
         
       .card-list .card-link .badge.lasanha {
-         color: rgb(0, 0, 0);
-        background: #28040475; }
+         color: rgb(255, 255, 255);
+        background:  #ff0505d9; }
 
           .card-list .card-link .badge.calzone {
-         color: rgb(0, 0, 0);
-        background: #28040475; }
+         color: rgb(255, 255, 255);
+        background: #ff0505d9; }
 
           .card-list .card-link .badge.spaghetti {
-         color: rgb(0, 0, 0);
-        background: #28040475; }
+         color: rgb(255, 255, 255);
+        background:  #ff0505d9; }
+
+        
+          .card-list .card-link .badge{
+         color: rgb(255, 255, 255);
+        background:  #ff0505d9; }
+
+    
 
 
 .card-list .card-link .card-title {
@@ -98,17 +105,17 @@ font-weight: 600;
     height: 35px;
     width: 35px;
     border-radius: 50px;
-    color: black;
+    color: rgb(253, 253, 253);
     margin: 30px 0 5px;
-    background: rgba(32, 29, 29, 0.637);
+    background: rgb(255, 1, 1);
     cursor: pointer;
-    border: 2px solid  black;
+    border: 2px solid  rgb(255, 255, 255);
     transition: 0.4s ease;
 }
 
 .card-list .card-link:hover .card-button{ 
     color: #fff;
-    background: rgb(67, 11, 11); }
+    background: rgb(255, 0, 0); }
 
     .card-wrapper .swiper-pagination-bullet{
         height: 13px;

@@ -1,5 +1,5 @@
 nav{
-    
+    padding: 10px 8px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -42,6 +42,7 @@ a{margin-right: 15px;}
         text-align: center;
     }
 
+
     .sidebar a {
         display: inline-block;
         margin: 5px 10px;
@@ -49,4 +50,15 @@ a{margin-right: 15px;}
     #barra-pesquisa {
         display: none;
     }
+}
+
+.button-login{
+    background-color: #EA1D2C;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+.button-login:hover{
+    background-color: #b9141f;
+
 }

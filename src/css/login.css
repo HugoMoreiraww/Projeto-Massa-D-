@@ -1,3 +1,26 @@
+@media (max-width: 768px){
+    .container {
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .left-side{
+          display: none;
+    }
+    .hero{
+        padding: 30px;
+    }
+    .hero img{
+        width: 200px;
+    }
+    .links a {
+        font-size: 18px;
+        margin:8px 0;
+    }
+}
 *{
     margin: 0;
     padding: 0px;;

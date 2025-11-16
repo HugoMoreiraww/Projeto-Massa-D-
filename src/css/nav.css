@@ -35,4 +35,18 @@ a{margin-right: 15px;}
     font-size: 14px;
     flex: 1;
 }
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
 
+    .sidebar a {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+    #barra-pesquisa {
+        display: none;
+    }
+}

@@ -58,3 +58,22 @@ footer {
     gap: 8px;
     margin-top: 12px;
 }
+@media (max-width: 768px) {
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-section {
+        margin: 20px 0;
+    }
+#titulo-principal {
+    margin-top: 10px;
+
+}
+#contatos h4 {
+    text-align: center;
+}
+
+}

@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     text-align: 100px;
-    padding: 60px 20px;
+    padding: 2rem 1rem;
 }
 .hero-texto{
   margin-left: 350px;
@@ -40,5 +40,33 @@
 .hamburgerhero-img:hover{
     transform: scale(1.1);
 }
+@media (max-width: 480px) {
 
- 
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .hero {
+    
+    flex-direction: column;
+  }
+.hero-texto{
+  margin-left: 0px;
+}
+  .hero h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero, .navbar, footer {
+    width: 100%;
+  }
+}

@@ -1,5 +1,5 @@
 nav{
-    
+    padding: 10px 8px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -36,3 +36,13 @@ a{margin-right: 15px;}
     flex: 1;
 }
 
+button{
+    background-color: #EA1D2C;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+button:hover{
+    background-color: #b9141f;
+
+}
